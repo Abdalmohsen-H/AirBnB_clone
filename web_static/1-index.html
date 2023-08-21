@@ -3,14 +3,15 @@
 <head>
   <title>Header and Footer Example</title>
 </head>
-<body style="margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; justify-content: space-between;">
+<body style="margin: 0; padding: 0; height: 100vh;">
 
   <header style="background-color: #FF0000; height: 70px; width: 100%;"></header>
 
-  <main style="flex: 1 /* fill all the space availble from parent component*/;"></main>
+  <main></main>
 
-  <footer style="background-color: #00FF00; height: 60px; width: 100%; display: flex; justify-content: center /*align in x axis (main axis) */; align-items: center /*align in y axis (cross axis) */;">
-    <p style="margin: 0; text-align: center; color: black;">Best School</p>
+  <footer style="background-color: #00FF00; height: 60px; width: 100%; bottom:0; position:fixed;   display: grid;
+">
+    <p style="margin: auto; color: black; line-height:30px; ">Best School</p>
   </footer>
 
 </body>
