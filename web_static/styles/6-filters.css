@@ -58,7 +58,8 @@ section.filters button:hover {
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	/*position: relative;*/
+	position: relative;/*makesure dropdown popover is above any element*/
+	/*because it impacts how the z-index defined below bhaves and how stacking order is established on the page.*/ 
 	z-index: 1;
 }
 
